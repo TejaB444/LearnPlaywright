@@ -1,0 +1,8 @@
+let x = 10;
+if(x>10)
+    console.log("x is greater than 5");
+    console.log("This will always be printed");
+    console.log("This will always be printed");
+    console.log("This will always be printed");
+    console.log("This will always be printed");
+    console.log("This will always be printed");
