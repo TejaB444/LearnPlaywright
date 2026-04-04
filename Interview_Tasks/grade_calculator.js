@@ -7,20 +7,20 @@
 // D: 60-69
 // F: 0-59
 
-let grade = 55; // Example numerical score
-if (grade >=90 && grade <=100)
+let score = 89; 
+if (score >=90 && score <=100)
 {
     console.log("Grade: A");
 }
-else if (grade >= 80 && grade <=89)
+else if (score >= 80)
 {
     console.log( "Grade : B");
 }
-else if (grade >= 70 && grade <=79)
+else if (score >= 70 )
 {
     console.log( "Grade : C");
 }
-else if (grade >= 60 && grade <=69)
+else if (score >= 60 )
 {
     console.log( "Grade : D");
 }
