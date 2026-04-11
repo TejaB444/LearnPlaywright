@@ -35,9 +35,9 @@
 // {
 //   console.log('No');
 // // }
-// console.log('a' - 3);
+// // console.log('a' - 3);
 
-console.log(false + false);
+// console.log(false + false);
 
 // for (let i = 0; i < 5; i++) 
 //   { 
@@ -60,3 +60,6 @@ console.log(false + false);
 // }
 // console.log('after' + b)
 // }
+
+
+
