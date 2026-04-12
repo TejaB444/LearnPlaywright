@@ -1,0 +1,28 @@
+// Exercise 1 : API Response Validation
+// You receive an array of API response codes. Write code to:
+// Check if ALL responses are successful (200–299)
+// Find the FIRST non-success code
+// Return all unique error codes
+let responses = [200, 201, 404, 500, 404, 200, 503];
+let uniquecodes=[];
+
+//Check if ALL responses are successful (200–299)
+if(responses.every(r=> r>=200 && r<=299))
+    console.log("All responses are successful")
+else
+    console.log("Not all responses are successful")
+
+// Find the FIRST non-success code
+console.log(responses.find( s => s<200 || s>300 ))
+
+//Unique error codes
+
+for(let code of responses.filter(f=>f>300 && f<=503 ))
+{
+    if(!uniquecodes.includes(code))
+        uniquecodes.push(code);
+}
+console.log(uniquecodes)
+
+
+    
