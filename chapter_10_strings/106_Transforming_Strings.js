@@ -38,6 +38,8 @@ let parts = ['2026','04','13']
 let date = parts.join("-")
 console.log(date);
 
+console.log(["chromium", "firefox"].concat("|"))
+
 
 
 
