@@ -61,5 +61,41 @@
 // console.log('after' + b)
 // }
 
+// const post = {
+//   id: 1,
+//   content: "Hello World!",
+//   stats: {
+//     likes: 100,
+//     retweets: 5
+//   }
+// };
+
+// const updatepost = {
+//     ...post, 
+//     stats: {
+//         ...post.stats, 
+//         likes : 101
+//     }
+// }
+
+// console.log(post.stats.likes)
+// console.log(updatepost.stats.likes)
+// console.log(post.stats.retweets)
+// console.log(updatepost.stats.retweets)
 
 
+function sum(...numbers) {
+  // 'numbers' is now a real array: [1, 2, 3, 4]
+  return numbers.reduce((total, n) => total + n, 0);
+}
+
+console.log(sum(1, 2, 3, 4,5)); // 10
+
+
+function winners(gold, silver, ...everyoneElse) {
+  console.log(`Gold goes to: ${gold}`);
+  console.log(`Silver goes to: ${silver}`);
+  console.log(`The other runners are: ${everyoneElse}`);
+}
+
+winners("Alex", "Sam", "Jordan", "Taylor", "Riley");

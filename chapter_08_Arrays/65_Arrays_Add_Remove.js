@@ -1,6 +1,6 @@
 //Add and Remove
 
-let num = [10,20,30,40];
+// let num = [10,20,30,40];
 
 console.log(num);
 
@@ -28,6 +28,6 @@ console.log(num)
 // //splice
 // num.splice(2,2) //removes 1 item at index 2
 // console.log(num)
-
-num.splice(2,0,99,100) // removes 1 element at index 2 and add these new elements to array in that place
+let num = [10,20,30,40];
+num.splice(2,1,99,100) // removes 1 element at index 2 and add these new elements to array in that place
 console.log(num) 

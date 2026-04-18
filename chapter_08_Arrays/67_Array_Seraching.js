@@ -19,10 +19,12 @@ console.log(results.includes('skip')) //returns boolean
 //find - returns first macthing element
 
 let nums = [10,20,30,40]
-console.log(nums.find(x=> x>=20))
+console.log(nums.find(x=> x>=50))
 
 console.log(nums.findIndex(n=> n>=20))
 
 console.log(nums.findLast(a=>a))
 console.log(nums.findLastIndex(a=>a))
+
+console.log(["10", "2", "1"].sort());
 
