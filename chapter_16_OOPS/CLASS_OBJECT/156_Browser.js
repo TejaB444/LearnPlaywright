@@ -1,4 +1,12 @@
 class Browser {
+
+    //can we have only one constructor per class
+    //default constructor
+    // constructor(){
+    //     console.log("deafault constructor");
+    // }
+
+    //parametrized constructor (with arguments)
     constructor(name) {
         this.name = name;
         this.isOpen = true;
