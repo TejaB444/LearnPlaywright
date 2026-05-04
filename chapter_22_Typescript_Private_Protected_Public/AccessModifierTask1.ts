@@ -1,4 +1,4 @@
-class BasePage {
+export class BasePage {
     public baseURL: string;
     private apikey: string;
     protected timeout: number;
@@ -38,6 +38,4 @@ console.log("public variable ",login1.baseURL)
 // private can only be used in Basepage
 // console.log("protected variable ",login1.timeout) 
 // protected can't be accessed without a child class
-
-export { BasePage, LoginPage };
 
